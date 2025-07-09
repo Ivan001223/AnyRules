@@ -1,6 +1,6 @@
 # MCP (Model Context Protocol) 协议集成配置
 
-## 🔗 MCP服务器详细配置
+## MCP服务器详细配置
 
 ### Context7服务器
 ```yaml
@@ -476,7 +476,7 @@
   - "提醒我" → set-reminder
 ```
 
-## 🔄 工具协作模式
+## 工具协作模式
 
 ### 多工具协同调用
 ```yaml
@@ -502,7 +502,7 @@
   Memory(团队偏好) → Time(会议安排) → Sequential(任务分配) → Context7(标准规范) → Memory(协作记录)
 ```
 
-## ⚙️ 配置选项
+## 配置选项
 
 ### 用户控制标志
 ```yaml

@@ -274,7 +274,7 @@ main() {
     if health_check && verify_deployment; then
         switch_traffic
         cleanup_old
-        echo "🎉 蓝绿部署成功完成"
+        echo "蓝绿部署成功完成"
     else
         rollback
     fi
@@ -433,7 +433,7 @@ main() {
     monitor_rollout
     
     if verify_deployment; then
-        echo "🎉 滚动部署成功完成"
+        echo "滚动部署成功完成"
     else
         rollback
     fi
@@ -681,7 +681,7 @@ main() {
     
     if monitor_metrics 300; then  # 监控5分钟
         promote_canary
-        echo "🎉 金丝雀部署成功完成"
+        echo "金丝雀部署成功完成"
     else
         rollback_canary
     fi
@@ -819,7 +819,7 @@ main() {
     database_tests
     integration_tests
     
-    echo "🎉 所有部署后验证测试通过"
+    echo "所有部署后验证测试通过"
 }
 
 main "$@"

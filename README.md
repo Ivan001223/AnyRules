@@ -294,11 +294,11 @@ kubernetes/: tools/kubernetes.md + workflows/deployment.md
 - **总计**: 60+个专业规则文档
 
 ## 使用方法
-- 将本仓库的.context/目录复制到您的项目根目录中
-- 将本仓库的.mainrules文件或文件内容复制到您的{项目根目录}下（适用于 ClaudeCode 和 Gemini CLI）
-  - 将本仓库的.mainrules文件内容复制到RooCode.设置.提示词.添加到上下文内
-  - 将本仓库的.mainrules文件内容复制到Cursor.Setting.Rules&Memories.UserRules内
-  - 将本仓库的.mainrules文件内容复制到Tare.设置.规则.个人规则内
+- 将本仓库的`.context/`目录复制到您的`项目根目录`中
+- 将本仓库的`.mainrules`文件或文件内容复制到您的`项目根目录`下（适用于 `ClaudeCode` 和 `Gemini CLI`）
+  - 将本仓库的`.mainrules`文件内容复制到`RooCode.设置.提示词.添加到上下文`内
+  - 将本仓库的`.mainrules`文件内容复制到`Cursor.Setting.Rules&Memories.UserRules`内
+  - 将本仓库的`.mainrules`文件内容复制到`Tare.设置.规则.个人规则`内
 
 ## 开发历程
 

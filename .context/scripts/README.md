@@ -2,9 +2,9 @@
 
 这个脚本库包含了各种实用的开发和运维脚本，供AnyRules系统的AI专家调用，以提供更精准和实用的技术支持。
 
-## 📁 脚本列表
+## 脚本列表
 
-### 🚀 项目初始化脚本
+### 项目初始化脚本
 
 #### `init-react-project.sh`
 React + TypeScript 项目初始化脚本
@@ -32,7 +32,7 @@ Node.js API 项目初始化脚本
 ./init-node-api.sh my-api mysql
 ```
 
-### 🚀 部署和运维脚本
+### 部署和运维脚本
 
 #### `deploy-docker.sh`
 Docker 部署脚本
@@ -60,7 +60,7 @@ Docker 部署脚本
 ./backup-database.sh mongodb mydb
 ```
 
-### 📊 监控和诊断脚本
+### 监控和诊断脚本
 
 #### `system-monitor.py`
 系统监控脚本
@@ -101,7 +101,7 @@ python log-analyzer.py app.log --format json --top 20
 - 错误分析和时间分布
 - 可视化报告生成
 
-### ⚡ 性能测试脚本
+### 性能测试脚本
 
 #### `load-test.py`
 HTTP 负载测试脚本
@@ -122,7 +122,7 @@ python load-test.py http://example.com -c 10 -n 100 --output report.json
 - 错误分析和状态码统计
 - JSON 格式报告输出
 
-### 🔍 代码质量检查脚本
+### 代码质量检查脚本
 
 #### `code-quality-check.sh`
 代码质量检查脚本
@@ -144,7 +144,7 @@ python load-test.py http://example.com -c 10 -n 100 --output report.json
 - **Docker**: Dockerfile 最佳实践、.dockerignore
 - **安全**: 硬编码密钥、TODO 注释
 
-## 🛠️ 使用前准备
+## 使用前准备
 
 ### 权限设置
 ```bash
@@ -178,29 +178,29 @@ brew install jq curl
 sudo apt-get install mysql-client postgresql-client mongodb-tools
 ```
 
-## 🎯 使用场景
+## 使用场景
 
-### 🆕 新项目启动
+### 新项目启动
 1. 使用 `init-react-project.sh` 或 `init-node-api.sh` 快速搭建项目
 2. 使用 `code-quality-check.sh` 确保代码质量
 3. 使用 `deploy-docker.sh` 容器化部署
 
-### 🐛 问题排查
+### 问题排查
 1. 使用 `system-monitor.py` 监控系统资源
 2. 使用 `log-analyzer.py` 分析应用日志
 3. 使用 `load-test.py` 进行性能测试
 
-### 🚀 生产运维
+### 生产运维
 1. 使用 `backup-database.sh` 定期备份数据库
 2. 使用 `deploy-docker.sh` 自动化部署
 3. 使用 `system-monitor.py` 持续监控
 
-### 🧪 质量保证
+### 质量保证
 1. 使用 `code-quality-check.sh` 进行代码审查
 2. 使用 `load-test.py` 进行性能测试
 3. 集成到 CI/CD 流水线
 
-## 📧 环境变量配置
+## 环境变量配置
 
 ### 邮件告警配置 (system-monitor.py)
 ```bash
@@ -229,7 +229,7 @@ export MONGO_USER="admin"
 export MONGO_PASSWORD="password"
 ```
 
-## 🔄 定时任务示例
+## 定时任务示例
 
 ### Crontab 配置
 ```bash
@@ -243,7 +243,7 @@ export MONGO_PASSWORD="password"
 0 6 * * * /usr/bin/python3 /path/to/log-analyzer.py /var/log/nginx/access.log.1 --output /var/log/daily-report.json
 ```
 
-## 🤝 贡献指南
+## 贡献指南
 
 欢迎为脚本库贡献新的脚本或改进现有脚本：
 
@@ -253,7 +253,7 @@ export MONGO_PASSWORD="password"
 4. **跨平台**: 尽可能支持多种操作系统
 5. **安全性**: 避免硬编码敏感信息，使用环境变量
 
-## 📞 获取帮助
+## 获取帮助
 
 如果您在使用脚本过程中遇到问题：
 
